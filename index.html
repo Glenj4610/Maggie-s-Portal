@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spanish Vocabulary Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <!-- Hero section: grabs attention and explains the topic quickly -->
+      <header class="hero">
+        <div class="hero__text">
+          <p class="eyebrow">Spanish Vocabulary Practice</p>
+          <h1>Learn beginner Spanish with confidence</h1>
+          <p class="hero__lead">
+            Build your Spanish words step by step with simple rules, examples, and a quick quiz.
+          </p>
+
+          <div class="hero__badges">
+            <span>Beginner friendly</span>
+            <span>5-question quiz</span>
+            <span>Mobile ready</span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <h2>Quick formula</h2>
+          <p><strong>Article + noun</strong></p>
+          <p>el libro = the book</p>
+          <p>la mesa = the table</p>
+        </div>
+      </header>
+
+      <main>
+        <!-- Explanation cards: clear for first-time learners -->
+        <section class="info-grid">
+          <article class="card">
+            <h3>Simple explanation</h3>
+            <p>
+              In Spanish, many nouns have a gender. <strong>el</strong> is used for masculine nouns,
+              and <strong>la</strong> is used for feminine nouns.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Formula</h3>
+            <p>
+              Use this pattern: <strong>article + noun</strong><br />
+              Example: <strong>el perro</strong> = the dog
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Worked example</h3>
+            <p>
+              <strong>la mochila</strong> = the backpack<br />
+              Here, <strong>la</strong> matches the feminine noun <strong>mochila</strong>.
+            </p>
+          </article>
+        </section>
+
+        <!-- Common mistakes section -->
+        <section class="mistakes">
+          <h2>Common mistakes</h2>
+          <ul>
+            <li>Using <strong>el</strong> instead of <strong>la</strong> for feminine words.</li>
+            <li>Forgetting that Spanish nouns can be masculine or feminine.</li>
+            <li>Mixing up the word meaning when memorising vocabulary.</li>
+          </ul>
+        </section>
+
+        <!-- Practice section: vocabulary flashcards -->
+        <section class="practice">
+          <h2>Practice vocabulary</h2>
+          <div class="word-grid">
+            <div class="word-card">
+              <span>el libro</span>
+              <small>book</small>
+            </div>
+            <div class="word-card">
+              <span>la casa</span>
+              <small>house</small>
+            </div>
+            <div class="word-card">
+              <span>el bolígrafo</span>
+              <small>pen</small>
+            </div>
+            <div class="word-card">
+              <span>la escuela</span>
+              <small>school</small>
+            </div>
+            <div class="word-card">
+              <span>el amigo</span>
+              <small>friend</small>
+            </div>
+            <div class="word-card">
+              <span>la mochila</span>
+              <small>backpack</small>
+            </div>
+          </div>
+        </section>
+
+        <!-- Quiz section -->
+        <section class="quiz" id="quiz">
+          <h2>Quick Quiz</h2>
+          <p class="quiz-status">Choose the best answer.</p>
+          <div id="quiz-container"></div>
+          <div id="result-box" class="result-box hidden"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
